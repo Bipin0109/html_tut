@@ -1,0 +1,30 @@
+div{
+    height: 100px;
+    width: 300px;
+    background-color: rgb(103, 103, 104);
+    
+    text-align: center;
+    display: flex;
+
+}
+#red{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border-radius: 50%;
+    text-align: center;
+    /* visibility: hidden;  for remove the things but space will be reserved */
+}
+#yellow{
+    height: 100x;
+    width: 100px;
+    background-color: yellow;
+    border-radius: 50%; 
+    /* display: none;  for remove the things and space all*/
+}
+#green{
+    height: 100px;
+    width: 100px;
+    background-color: green ;
+    border-radius: 50%; 
+}

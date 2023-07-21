@@ -1,0 +1,56 @@
+div{
+    height: 250px;
+    width: 250px;
+    background-color: blanchedalmond;
+    color: rgb(85, 38, 5);
+    border:2px solid rgb(166, 0, 255);
+     /* transition-property: all;
+     transition-duration: 1s;
+     transition-timing-function: ease-in;
+     transition-delay: 1s; */
+     transition: all 2s ease-in-out .1s;
+     margin-left: 650px;
+     margin-top: 300px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     /* transform: scale(2); */
+     
+}
+
+@media (width : 600px){
+    div{
+        background-image: url("notebook_image.jpg");
+        background-size: cover;
+    }
+}
+
+@media (min-width : 600px){
+    div{
+         background-color: rgb(85, 38, 5); 
+       
+    }
+}
+
+@media (min-width : 400px) and (max-width : 600px){
+    div{
+          background-color: rgb(5, 85, 38); 
+        
+    }
+}
+div:hover{
+    background-image: url("krishna.jpg");
+    background-size: cover;
+    color: aliceblue;
+
+    font-size: 15px;
+    transform: rotate(360deg);
+     /* transform: translate(300px,230px); */
+    /* transform: translateY(-300px); */ 
+/* transform: skew(30 deg); */
+}
+div:active{
+   color: rgb(3, 18, 32);
+}
+

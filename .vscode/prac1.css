@@ -1,0 +1,58 @@
+/* #box1{
+    height: 100px;
+    width: 200px;
+    background-color: aqua;
+    font-size:10px ;
+
+}
+#box2{
+   
+    width: 30%; 
+    background-color: blueviolet;
+    font-size: 2em;
+    margin-left: 10%;
+    width: 5rem;
+height: 500%; 
+(height: 100vh;)
+(width: 90vw;) 
+} 
+*/
+div{
+    height: 100px;
+    width: 100px;
+    background-color: burlywood;
+    
+    display: inline-block;
+    border: 2px solid rgb(67, 67, 67);
+/* margin-left: 8px; */
+}
+#box3{
+    position: static;
+}
+
+#box4{
+    position: relative;
+    top: 20px;
+    left: 10px;
+ 
+}
+#box5{
+    position: absolute;
+   top: 500px;
+   left: 20px;
+}
+#box6{
+    position: fixed;
+    /* right: 10px;
+    bottom: 20px;
+    width: 10vw; */
+    top:50px;
+}
+#box7{
+    position: sticky;
+   
+   
+}
+
+
+

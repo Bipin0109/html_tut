@@ -1,0 +1,41 @@
+h1{
+     width: 120px;
+    height: 50px;
+    background-color: rgba(9, 152, 152, 0.803);
+    text-align: center;
+    justify-content: center;
+    text-transform: capitalize ;
+    font-family: Times;
+border: 2px solid brown;
+}
+div{
+    height: 100px;
+    width: 100px;
+    /* border-width: 5px;
+    border-style: double;
+    border-color: rgb(71, 49, 17); */
+     border: 5px solid  rgb(71, 49, 17);/*border(width style color); */
+    background-color: rgba(211, 118, 37, 0.884);
+    border-radius: 50%;
+    text-align: center;
+    justify-content: center;
+    padding: 5px 2px 5px 2px;
+    text-rendering: geometricPrecision;
+    text-justify: inter-ideograph;
+}
+#outer{
+    font-size: 20px;
+    font-weight: 900;
+ 
+    justify-content: center;
+    background-color: rgba(37, 211, 141, 1);
+}
+#inner{
+    margin-left: -15%;
+    font-size: 2em;/* 2em = 20*2=40 px  */
+    font-weight: 100;
+    border-style:dotted;
+    justify-content: center;
+    background-color: rgba(89, 37, 211, 0.884);
+}
+

@@ -1,0 +1,35 @@
+div{
+    height: 70px;
+    width: 150px;
+    display: inline-block;
+    border: 2px solid rgb(67, 67, 67);
+}
+body{
+     background-image: url("notebook_image.jpg");
+   
+   text-align: center; 
+  
+}
+#container{
+    width: 600px;
+    height: 600px;
+    /* background-color: rgb(149, 124, 142); */
+    background-image: url("notebook_image.jpg");
+    background-size: cover;
+    display: flex;
+    margin-left: 100px;
+    /* margin-top: 200px; */
+    margin-bottom: 200px;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    /* justify-content: flex-end; */
+}
+#box2{
+    height: 140px;
+    background-image: url("notebook_image.jpg");
+    background-size: cover;
+    
+}
