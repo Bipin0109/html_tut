@@ -1,0 +1,44 @@
+.loader{
+    height: 250px;
+    width: 250px;
+    background-color: rgb(22, 20, 20);
+   
+    border:10px solid #7575c7;
+    border-top: 10px solid rgb(217, 212, 212);
+    position: absolute;
+     margin-left: 650px;
+     margin-top: 300px;
+    border-radius: 50%;
+    font-size: small;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+     /* animation-name: color_spinAnimates;
+     animation-duration: 2s;
+     animation-timing-function:linear;
+     animation-delay: 0.5s;
+     animation-iteration-count: infinite;
+     animation-direction: normal; */
+     animation:color_spinAnimates 2s linear 2s infinite normal;/*sequence must be same */
+}
+ @keyframes color_spinAnimates{
+    from {
+        background-color: rgb(6, 6, 6);
+        transform: rotate(0deg);
+        }
+    to{
+        background-color: white;
+        background-image: url("krishna.jpg");
+        background-size: cover;
+        /* right: 700px; */
+        /* bottom: 500px; */
+        color: white;
+        font-size: 30px;
+        transform: rotate(450deg);
+    }
+} 
+
+
+
+
